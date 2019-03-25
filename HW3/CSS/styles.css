@@ -1,0 +1,87 @@
+/*Formats all the font on the page*/
+*{font-family: serif, sans-serif;
+}
+
+/*Background color of the page and background image*/
+body{background-color: lightgray;
+}
+
+/*Lists the navigation links horizontally*/
+ul.nav li{
+    display: inline;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+/*Center aligns the navigation links*/
+div.nav_center{text-align: center;
+}
+
+/*Formats my image*/
+img.img_home_top{width: 150px;
+        height: 200px;
+        /*float: left;*/
+        margin-top: 5px;
+        margin-left: 10px;
+        border: thin solid darkslateblue;
+        border-radius: 200px;
+        -moz-border-radius: 200px;
+        -webkit-border-radius: 200px;
+}
+
+/*Formats the top banner*/
+div.top_banner{width: 100%;
+            background-color: darkslateblue;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+}
+
+/*The top banner header*/
+h1.h1_home_top{float:right;
+        margin-right: 1000px;
+}
+
+/*Column formatting*/
+div.columns{width: 450px;
+        margin: 10px;
+        border: thin solid white;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+}
+
+/*Places the columns horizontally*/
+#col1, #col2, #col3{float: left;
+}
+
+/*Column 1 background color*/
+#col1{background-color: aliceblue;
+    background-image: url("../images/Clouds2.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+/*Column 2 background color*/
+#col2{background-color: azure;
+    background-image: url("../images/Clouds2.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;  
+}
+
+/*Column 3 background color*/
+#col3{background-color: mintcream;
+    background-image: url("../images/Clouds2.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+/*Centers the columns*/
+div.center_columns{margin-left: 15px;
+}
+
+/*Center aligns, spaces, and enlargens the back-to-top-link at the bottom of the page*/
+#home_back_to_top{text-align: center;
+        margin: 20px;         
+}
